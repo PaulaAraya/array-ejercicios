@@ -1,6 +1,6 @@
 // metodo reverse en array
 
-const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "y", "j", "k"];
+const alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"];
 const invested = alphabet.reverse ;
 console.log(invested) 
 
