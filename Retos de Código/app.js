@@ -28,7 +28,7 @@ function convertDoubleSpaceToSingle(str) {
 }
 module.exports = convertDoubleSpaceToSingle;
 
-// 3) areValidCredentials
+//4) areValidCredentials
 
 function areValidCredentials(name, password) {
   if (name.length >= 3 && password.length >= 8) {
@@ -39,3 +39,17 @@ function areValidCredentials(name, password) {
 }
 
 module.exports = areValidCredentials;
+
+// 5) findPairForSum
+function findPairForSum(array, number) {
+  for (let a = 0; a < array.length; a++) {
+     for (let b = 0; b < array.length; b++) {
+   if (array[a] + array[b] === number){
+     return [array[a], array[b]];
+   } 
+  }    
+  }
+ 
+}
+module.exports = findPairForSum;
+
